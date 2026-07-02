@@ -12,26 +12,20 @@ body {
   color: white;
 }
 
-/* HERO */
 .hero {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   background: radial-gradient(circle, #1a001f, #000);
 }
 
-.hero h1 {
+h1 {
   font-size: 3rem;
 }
 
-.hero p {
-  opacity: 0.8;
-}
-
-/* BOTÃO */
 .btn {
   margin-top: 20px;
   padding: 12px 20px;
@@ -41,7 +35,6 @@ body {
   border-radius: 8px;
 }
 </style>
-
 </head>
 
 <body>
